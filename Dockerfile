@@ -6,3 +6,5 @@ RUN chmod 777 /usr/src/app
 COPY . .
 
 CMD ["bash", "start.sh"]
+EXPOSE 80/tcp
+
